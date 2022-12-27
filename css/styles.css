@@ -60,7 +60,7 @@ a:hover{
     padding-top: 100px;
     height: 700px;
     position: relative;
-    background-image: url(/images/uchiha-clan.png), url(./images/konoha-purple.png) ;
+    background-image: url(./images/uchiha-clan.png), url(./images/konoha-purple.png) ;
     background-repeat: no-repeat,space ;
     background-position:50% 10%;
     background-size:400px 520px, 80px 80px;
