@@ -1,0 +1,215 @@
+body{
+    background-color: #eeeded;
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+hr{
+    width: 5%;
+    margin: 50px auto;
+    border-style: dotted none none;
+    border-width: 5px;
+    color: #927da6;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family:'Kolker Brush', cursive;
+    font-size: 8rem;
+    color: #0d2547;
+    text-shadow: 2px 2px 8px rgb(117, 83, 83);
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2.2rem;
+    font-weight:600;
+    color: #0d2547;
+    text-shadow: 2px 2px 8px white;
+}
+
+
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#1e5096 ;
+}
+a{
+    margin: 0 20px 0 20px;
+    
+}
+a:hover{
+    color: #ffffff;
+}
+
+.intro {
+    position: relative;
+    
+}
+
+.top{
+    
+    background-color: #927da6;
+    padding-top: 100px;
+    height: 700px;
+    position: relative;
+    background-image: url(/images/uchiha-clan.png), url(/images/konoha-purple.png) ;
+    background-repeat: no-repeat,space ;
+    background-position:50% 10%;
+    background-size:400px 520px, 80px 80px;
+    
+    
+   
+
+}
+
+.middle {
+    
+    margin: 0 auto 0;
+    padding-top: 50px;
+
+    background-image: url("/images/susano.jpg");
+    background-size:1519.2px 1661px ;
+}
+
+.intro{
+    width: 40%;
+    margin: auto;
+    text-shadow: 2px 4px 8px black;
+    color: #ffffff;
+}
+
+.sasuke-profilepic{
+    
+    background-color: whitesmoke;
+    border-radius: 100%;
+    width:250px;
+    height: 250px;;
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    text-shadow: 2px 4px 8px black;
+    color: #ffffff;
+}
+.lightning{
+    width: 25%;
+    height:10%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+.fireball{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.btn {
+
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #1e5096);
+    background-image: -moz-linear-gradient(top, #3498db, #1e5096);
+    background-image: -ms-linear-gradient(top, #3498db, #1e5096);
+    background-image: -o-linear-gradient(top, #3498db, #1e5096);
+    background-image: linear-gradient(to bottom, #3498db, #1e5096);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #c7a5de;
+    background-image: -webkit-linear-gradient(top, #c7a5de, #622e96);
+    background-image: -moz-linear-gradient(top, #c7a5de, #622e96);
+    background-image: -ms-linear-gradient(top, #c7a5de, #622e96);
+    background-image: -o-linear-gradient(top, #c7a5de, #622e96);
+    background-image: linear-gradient(to bottom, #c7a5de, #622e96);
+    text-decoration: none;
+  }
+
+.bottom {
+    background-color: #a8c2c3;
+    padding: 20px 0 20px ;
+    position: relative;
+    
+}
+
+.contact-me{
+    padding-bottom: 30px;
+}
+.contactmsg{
+    width:40%;
+    margin:30px auto;
+
+}
+
+.sasukebottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+    
+}
+.footerimg {
+    width:30px;
+    border-radius: 50%;
+}
+.footerimg:hover{
+    background-color: rgb(79, 123, 153);
+}
+
+.copyright{
+    font-size: 0.75rem;
+    padding-top: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#154040;
+}
+
+
+.konoha-img{
+    height: 200px;
+    position: absolute;
+    left: 250px;
+    top:30px;
+    
+}
+.uchiha-img{
+    
+    position: absolute;
+    right: 20px;
+    top: 165px;
+    
+}
+
+.konoha-village{
+    height: 400px;
+    width: 1519.2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.sasuke-img{
+    
+    height:600px;
+    
+}
